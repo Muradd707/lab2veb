@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1200px;
+    background-color: #fff;
+    margin: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .sidebar {
+    width: 30%;
+    background-color: #1f3654;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+  }
+  
+  .profile-img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar p,
+  .sidebar li {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .main-content {
+    width: 70%;
+    padding: 40px;
+  }
+  
+  .main-content h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+  
+  .main-content h1 span {
+    color: #1f3654;
+  }
+  
+  .main-content h2 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h3 {
+    font-size: 20px;
+    color: #1f3654;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1f3654;
+    padding-bottom: 5px;
+  }
+  
+  .experience h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .experience span {
+    float: right;
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .experience ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  .reference p {
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
