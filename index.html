@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Richard Sanchez - CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+
+      <div class="section">
+        <h3 onclick="toggleSection('contact')">Contact</h3>
+        <div id="contact" class="toggle-content show">
+          <p>📞 +123-456-7890</p>
+          <p>✉️ hello@reallygreatsite.com</p>
+          <p>📍 123 Anywhere St., Any City</p>
+          <p>🌐 www.reallygreatsite.com</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3 onclick="toggleSection('education')">Education</h3>
+        <div id="education" class="toggle-content show">
+          <ul id="eduList">
+            <li><strong>2029 - 2030</strong> — WARDIERE UNIVERSITY, Master of Business</li>
+            <li><strong>2025 - 2029</strong> — WARDIERE UNIVERSITY, Bachelor of Business, GPA: 3.8 / 4.0</li>
+          </ul>
+          <button onclick="addItem('eduList')">+ Təhsil əlavə et</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3 onclick="toggleSection('skills')">Skills</h3>
+        <div id="skills" class="toggle-content show">
+          <ul id="skillsList">
+            <li>Project Management</li>
+            <li>Public Relations</li>
+            <li>Teamwork</li>
+            <li>Time Management</li>
+            <li>Leadership</li>
+            <li>Effective Communication</li>
+            <li>Critical Thinking</li>
+          </ul>
+          <button onclick="addItem('skillsList')">+ Bacarıq əlavə et</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Languages</h3>
+        <ul>
+          <li>English (Fluent)</li>
+          <li>French (Fluent)</li>
+          <li>German (Basics)</li>
+          <li>Spanish (Intermediate)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <h1><span>Richard</span> Sanchez</h1>
+      <h2>Marketing Manager</h2>
+
+      <section>
+        <h3 onclick="toggleSection('profile')">Profile</h3>
+        <div id="profile" class="toggle-content show">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </section>
+
+      <section>
+        <h3 onclick="toggleSection('work')">Work Experience</h3>
+        <div id="work" class="toggle-content show">
+          <ul id="workList">
+            <li><strong>Borcelle Studio (2030 - Present)</strong><br>Marketing Manager & Specialist</li>
+            <li><strong>Fauget Studio (2025 - 2029)</strong><br>Marketing Manager & Specialist</li>
+            <li><strong>Studio Shodwe (2024 - 2025)</strong><br>Marketing Manager & Specialist</li>
+          </ul>
+          <button onclick="addItem('workList')">+ İş əlavə et</button>
+        </div>
+      </section>
+
+      <section>
+        <h3>Reference</h3>
+        <p><strong>Estelle Darcy</strong> — Wardiere Inc. / CTO<br>📞 123-456-7890 ✉️ hello@reallygreatsite.com</p>
+        <p><strong>Harper Richard</strong> — Wardiere Inc. / CEO<br>📞 123-456-7890 ✉️ hello@reallygreatsite.com</p>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
